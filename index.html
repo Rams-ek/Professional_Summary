@@ -3,72 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Experience</title>
+    <title>Professional Experience | Hariram S</title>
     <style>
+        /* Modern, Professional Color Palette & Typography */
         body {
-            font-family: 'Times New Roman', serif;
-            line-height: 1.6;
-            margin: 2em;
-            background-color: #f9f9f9;
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
             color: #333;
-            padding: 20px;
+            margin: 0;
+            padding: 40px 20px;
         }
+
+        /* Clean Card Layout */
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            border-top: 6px solid #0073b1; /* Professional Blue Accent */
+        }
+
         h1 {
             text-align: center;
-            color: #4CAF50;
-            font-size: 24px;
-            margin-bottom: 1em;
+            color: #1a365d; /* Deep Navy */
+            font-size: 32px;
+            margin-bottom: 0.2em;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
         }
-        p {
-            margin: 0.5em 0;
-            font-size: 16px;
-        }
-        ul {
-            margin: 1em 0;
-            padding-left: 20px;
-        }
-        ul li {
-            margin: 0.5em 0;
-            font-size: 16px;
-        }
-        .signature {
-            margin-top: 2em;
-        }
-        .linkedin-badge {
+
+        .subtitle {
             text-align: center;
-            margin-top: 1em;
+            color: #0073b1;
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 2em;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        p {
+            margin: 1.2em 0;
+            font-size: 16px;
+            color: #4a5568;
+        }
+
+        /* Stylish List Items */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 2em 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #2d3748;
+        }
+
+        /* Custom Arrow Bullets */
+        ul li::before {
+            content: '➔';
+            position: absolute;
+            left: 0;
+            top: 1px;
+            color: #0073b1;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Signature Area */
+        .signature-block {
+            margin-top: 3em;
+            padding-top: 1.5em;
+            border-top: 1px solid #eee;
+        }
+
+        .signature {
+            font-style: italic;
+            color: #718096;
+            margin-bottom: 0;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 18px;
+            color: #1a365d;
+            margin-top: 5px;
+        }
+
+        .linkedin-badge {
+            margin-top: 2.5em;
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Responsive design for mobile viewing */
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 26px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Professional Experience</h1>
-    <p>Dear Hiring Manager,</p>
 
-    <p>I am Hariram S, writing to highlight my professional experience and achievements as a Senior GIS & FME Analyst with nearly 4 years of comprehensive experience across Wipro, Zigma Technology, and Infosys BPM. My expertise lies in bridging the gap between traditional geographic information systems and modern development practices by leveraging advanced spatial data analytics and end-to-end workflow automation.</p>
+    <div class="container">
+        <h1>Professional Experience</h1>
+        <div class="subtitle">Senior GIS & FME Analyst</div>
 
-    <p>Throughout my career, I have focused on solving complex spatial problems at scale, undertaking key responsibilities and achieving milestones that include:</p>
+        <p>Dear Hiring Manager,</p>
 
-    <ul>
-        <li>Reducing manual data handling by over 55% by integrating Snowflake for data extraction, Advanced FME Pipelines for automated spatial processing, and QGIS for streamlined quality control.</li>
-        <li>Managing comprehensive data reconciliation projects, including cascading spatial joins and attribute-matching workflows, effectively automating data segregation and reducing manual quality-checking by 30%.</li>
-        <li>Developing automated workflows using FME, PostGIS, and Jupyter Notebook to streamline geospatial data processing, successfully reducing production delivery time by 30%.</li>
-        <li>Executing large-scale spatial projects, such as a comprehensive Water Bodies Conversion workflow utilizing Python to extract attributes and preserve exact naming structures across thousands of Parquet files.</li>
-        <li>Synthesizing complex geospatial outputs using advanced Excel pivot tables, cutting manual reporting time by 25% to generate clear summary dashboards for direct client presentation.</li>
-        <li>Providing continuous technical training and knowledge transfer sessions to team members, boosting core GIS skillsets across the organization.</li>
-    </ul>
+        <p>I am Hariram S, writing to highlight my professional experience and achievements as a Senior GIS & FME Analyst with nearly 4 years of comprehensive experience across Wipro, Zigma Technology, and Infosys BPM. My expertise lies in bridging the gap between traditional geographic information systems and modern development practices by leveraging advanced spatial data analytics and end-to-end workflow automation.</p>
 
-    <p>My approach integrates technical proficiency in tools like Python, SQL, FME, and Snowflake with a strong focus on collaboration and process optimization. By replacing manual workflows with robust, code-driven automation, I have consistently enhanced operational efficiency while maintaining rigorous data accuracy. My commitment to technical excellence has been recognized through multiple industry accolades, including the Star Performer Award (2026) at Wipro and the Istar Award at Infosys BPM.</p>
+        <p>Throughout my career, I have focused on solving complex spatial problems at scale, undertaking key responsibilities and achieving milestones that include:</p>
 
-    <p>I am passionate about leveraging geospatial engineering to drive innovation and contribute to organizational goals. Thank you for taking the time to review my experience and achievements. Please feel free to reach out to discuss any opportunities or require further details about my background.</p>
+        <ul>
+            <li>Reducing manual data handling by over 55% by integrating Snowflake for data extraction, Advanced FME Pipelines for automated spatial processing, and QGIS for streamlined quality control.</li>
+            <li>Managing comprehensive data reconciliation projects, including cascading spatial joins and attribute-matching workflows, effectively automating data segregation and reducing manual quality-checking by 30%.</li>
+            <li>Developing automated workflows using FME, PostGIS, and Jupyter Notebook to streamline geospatial data processing, successfully reducing production delivery time by 30%.</li>
+            <li>Executing large-scale spatial projects, such as a comprehensive Water Bodies Conversion workflow utilizing Python to extract attributes and preserve exact naming structures across thousands of Parquet files.</li>
+            <li>Synthesizing complex geospatial outputs using advanced Excel pivot tables, cutting manual reporting time by 25% to generate clear summary dashboards for direct client presentation.</li>
+            <li>Providing continuous technical training and knowledge transfer sessions to team members, boosting core GIS skillsets across the organization.</li>
+        </ul>
 
-    <p class="signature">Yours sincerely,</p>
-    <p>Hariram S</p>
+        <p>My approach integrates technical proficiency in tools like Python, SQL, FME, and Snowflake with a strong focus on collaboration and process optimization. By replacing manual workflows with robust, code-driven automation, I have consistently enhanced operational efficiency while maintaining rigorous data accuracy. My commitment to technical excellence has been recognized through multiple industry accolades, including the Star Performer Award (2026) at Wipro and the Istar Award at Infosys BPM.</p>
 
-    <!-- LinkedIn Badge Section -->
-    <div class="linkedin-badge">
-        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="hariram-s-3a9077213" data-version="v1">
-            <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/hariram-s-3a9077213?trk=profile-badge">Hariram S</a>
+        <p>I am passionate about leveraging geospatial engineering to drive innovation and contribute to organizational goals. Thank you for taking the time to review my experience and achievements. Please feel free to reach out to discuss any opportunities or require further details about my background.</p>
+
+        <div class="signature-block">
+            <p class="signature">Yours sincerely,</p>
+            <p class="name">Hariram S</p>
+        </div>
+
+        <!-- LinkedIn Badge Section -->
+        <div class="linkedin-badge">
+            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="hariram-s-3a9077213" data-version="v1">
+                <a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/hariram-s-3a9077213?trk=profile-badge">Hariram S</a>
+            </div>
         </div>
     </div>
 
